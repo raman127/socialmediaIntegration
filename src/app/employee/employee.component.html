@@ -1,0 +1,16 @@
+<div class="container">
+    <table class="table table-bordered table-sm">
+      <tr>
+        <th>S No.</th>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Salary</th>
+      </tr>
+      <tr *ngFor = "let employee of employees; index as i">
+        <td>{{i+1}}</td>
+        <td>{{employee.id}}</td>
+        <td>{{employee.name}}</td>
+        <td>{{employee.sal}}</td>
+      </tr>
+    </table>
+    </div>
